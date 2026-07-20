@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Icebreaker (Thumbball)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="./geometry.js"></script>
+  <script src="./game.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Team Icebreaker (Thumbball)</h1>
+    <p>Spin the ball — answer the question on the face pointing at you!</p>
+  </header>
+
+  <main>
+    <div id="canvas-container">
+      <canvas id="ball-canvas"></canvas>
+    </div>
+
+    <div id="controls">
+      <button id="spin-btn">🎲 Spin!</button>
+      <span id="roll-count">Roll #0</span>
+    </div>
+
+    <div id="question-card" class="hidden">
+      <div id="face-label"></div>
+      <div id="question-text"></div>
+      <button id="spin-again-btn">Spin Again</button>
+    </div>
+  </main>
+
+
+</body>
+</html>

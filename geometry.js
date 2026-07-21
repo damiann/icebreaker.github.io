@@ -297,7 +297,7 @@ function buildTruncatedIcosahedron(questions, radius = 1) {
         normals[base3]     = fnx;   normals[base3+1]   = fny;   normals[base3+2]   = fnz;
         uvs[base2]         = uv[0]; uvs[base2+1]       = uv[1];
       }
-      triOffset++;
+      triOffset += 3;
     }
   }
 
